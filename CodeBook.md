@@ -30,27 +30,27 @@ Identify related files:
 4. Names of Features come from “features.txt” 
 5. Levels of Activity come from “activity_labels.txt”
 
-# Sections analytical data conversions
-Section 1 - Merges the training and the test sets to create one data set.
+## Sections analytical data conversions
+# Section 1 - Merges the training and the test sets to create one data set.
 	- merge the previous datasets to further analysis:
 		- allY - 'Activity'
 		- allX - 'Features'
 		- allSubject - 'Subject' 
 
-Section 2 - Extracts only the measurements on the mean and standard deviation for each measurement.
+# Section 2 - Extracts only the measurements on the mean and standard deviation for each measurement.
 	- mean and Standard deviation
 	- subset of deviation
 	- set the correct column names
 
-Section 3 - Uses descriptive activity names to name the activities in the data set.
+# Section 3 - Uses descriptive activity names to name the activities in the data set.
 	- data updating
 	- set the correct column names
 	
-Section 4 - Appropriately labels the data set with descriptive variable names.
+# Section 4 - Appropriately labels the data set with descriptive variable names.
 	- set the correct column names
 	- final data set
 
-Section 5 - From the data set in step 4, creates a second, independent tidy data set with the average of
+# Section 5 - From the data set in step 4, creates a second, independent tidy data set with the average of
 			  each variable for each activity and each subject
 	- subsets summary statistics for each
 	- ordering permutation
